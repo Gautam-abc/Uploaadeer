@@ -2,19 +2,19 @@ import os
 from os import environ
 
 # API Configuration
-API_ID = int(os.environ.get("API_ID", "25933223"))
-API_HASH = os.environ.get("API_HASH", "6ef5a426d85b7f01562a41e6416791d3")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+API_ID = int(os.environ.get("API_ID", "32887550"))
+API_HASH = os.environ.get("API_HASH", "8385993e9b9dffc69ca579c5a3b2076b")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8299474852:AAEzixpRUf8aEZPtBV-6TW2qz5i6cb2biOY")
 
-CREDIT = os.environ.get("CREDIT", "𓍯𝙎𝙪𝙟𝙖𝙡⚝")
+CREDIT = os.environ.get("CREDIT", "Bhumihar")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "UGxPRO")
 DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://sujalbot:sujalbot@cluster0.mnjoqfu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-ADMINS = [8458169280, 8383373235]  # dono admins id list me
+OWNER_ID = int(os.environ.get("OWNER_ID", "7652075308"))
+ADMINS = [7652075308,7652075308]  # dono admins id list me
 
 
 # Channel Configuration
@@ -60,6 +60,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
 
